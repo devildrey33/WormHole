@@ -91,10 +91,10 @@ Banner_WormHole.prototype = Object.assign( Object.create(ObjetoCanvas.prototype)
         
         var Cargador = new THREE.TextureLoader();
         Cargador.crossOrigin = "";
-        Cargador.load('/Graficos/WormHole/1.jpg', this.TexturaCargada.bind(this, 0) );    
+        Cargador.load('/WormHole/1.jpg', this.TexturaCargada.bind(this, 0) );    
         var Cargador2 = new THREE.TextureLoader();
         Cargador2.crossOrigin = "";
-        Cargador2.load('/Graficos/WormHole/2.jpg', this.TexturaCargada.bind(this, 1) );
+        Cargador2.load('/WormHole/2.jpg', this.TexturaCargada.bind(this, 1) );
 
 
         this.Camara.lookAt(this.Escena.position);    
